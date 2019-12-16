@@ -48,8 +48,8 @@ variable "subnet_cidr" {
 }
 
 variable "dns_list" {
-    description = "list of DNS servers"
-    default = ["100.125.4.25", "8.8.8.8"]
+  description = "list of DNS servers"
+  default     = ["100.125.4.25", "8.8.8.8"]
 }
 
 variable "subnet_gateway_ip" {
@@ -76,3 +76,4 @@ variable "public_key" {
   description = "ssh public key to use"
   default     = ""
 }
+
